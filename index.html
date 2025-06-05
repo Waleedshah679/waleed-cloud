@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Waleed Shah - File Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      padding: 40px 20px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      animation: slideDown 1.5s ease;
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #00d2ff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #b0e0ff;
+    }
+
+    .files {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 600px;
+      margin: auto;
+      animation: fadeIn 2s ease;
+    }
+
+    .file {
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s, background 0.3s;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .file:hover {
+      transform: scale(1.02);
+      background: rgba(255,255,255,0.2);
+    }
+
+    .file a {
+      color: #00ffe0;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #ccc;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Waleed Shah</h1>
+    <p>Welcome to the World of Waleed 🌍</p>
+  </header>
+
+  <div class="files">
+    <div class="file">
+      <a href="https://gofile.io/d/YOUR_LINK_1" target="_blank">📦 Download Software Tool 1</a>
+    </div>
+    <div class="file">
+      <a href="https://drive.google.com/file/d/YOUR_LINK_2/view?usp=sharing" target="_blank">📁 Important Document</a>
+    </div>
+    <!-- Add more file sections as needed -->
+  </div>
+
+  <div class="footer">
+    © 2025 Waleed Shah. All rights reserved.
+  </div>
+
+</body>
+</html>
