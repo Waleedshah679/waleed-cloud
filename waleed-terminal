@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Waleed Shah | Terminal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      padding: 20px;
+    }
+    .terminal-line {
+      margin-bottom: 10px;
+      white-space: pre-wrap;
+    }
+    .blink {
+      animation: blink 1s steps(2, start) infinite;
+      color: #00ff00;
+    }
+    @keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+    .contact {
+      margin-top: 30px;
+      color: #77ff77;
+    }
+    .fake-cmd {
+      color: #00cc00;
+    }
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="terminal-line">Initializing system...</div>
+  <div class="terminal-line">Connecting to server...</div>
+  <div class="terminal-line">Access granted ✅</div>
+  <div class="terminal-line">Welcome to the World of <strong>Waleed Shah</strong> 🌍</div>
+  <div class="terminal-line">Type: <span class="fake-cmd">show files</span></div>
+
+  <br>
+
+  <div class="terminal-line">[1] 📦 <a href="#">Software Tool 1</a></div>
+  <div class="terminal-line">[2] 📁 <a href="#">Important Document</a></div>
+  <div class="terminal-line">[3] 🔒 <a href="#">Private Config</a></div>
+  <div class="terminal-line">[x] More coming soon...</div>
+
+  <div class="contact">
+    <br><br>
+    📧 Email: <a href="mailto:Waleedshah679@gmail.com">Waleedshah679@gmail.com</a><br>
+    📱 WhatsApp: <a href="https://wa.me/923099936661" target="_blank">+92 309 9936661</a>
+  </div>
+
+  <div class="terminal-line"><span class="blink">█</span></div>
+
+</body>
+</html>
